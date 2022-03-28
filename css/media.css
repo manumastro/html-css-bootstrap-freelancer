@@ -14,11 +14,11 @@
   .jumbotron .jumbo-container .jumbo-description h2{
     font-size: 20px;
   }
-  .jumbotron .jumbo-container .jumbo-line-star .star{
-    margin: 0 10px;
+  .line-star .star{
+    margin: 0 10px !important;
   }
-  .jumbotron .jumbo-container .jumbo-line-star .line-first,
-  .jumbotron .jumbo-container .jumbo-line-star .line-second{
-    width: 80px;
+  .line-star .line-first,
+  .line-star .line-second{
+    width: 80px !important;
   }
 }

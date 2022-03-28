@@ -74,7 +74,7 @@ header nav .row{
   background-color: white;
   border-radius: 10px;
 }
-.jumbo-line-star .star{
+.line-star .star{
   margin: 0 30px;
 }
 .jumbo-description h2{
@@ -82,8 +82,26 @@ header nav .row{
   font-weight: 400;
 } 
 /* MAIN */
+#portfolio #title{
+  padding-top: 70px;
+}
+#portfolio #title h1{
+  font-size: 55px;
+  color: black;
+  margin-bottom: 20px;
+}
+#portfolio #title .line-first,
+#portfolio #title .line-second{
+  width: 13%;
+  background-color: black;
+}
 .em-card{
-  height: 250px;
+  height: 300px;
   background-color: white;
+  margin-bottom: 40px;
+}
+.em-card img{
+  border-radius: 20px;
+  height: 100%;
 }
 /* FOOTER */
