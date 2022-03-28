@@ -1,0 +1,33 @@
+.debug{
+  background-color:rgba(100, 149, 237, 0.5);
+  border: 1px solid black;
+}
+.min-h-300{
+  min-height: 300px;
+}
+
+
+.em-container{
+  width: 60%;
+  margin: 0 auto;
+}
+/* HEADER */
+header{
+  height: 80px;
+}
+header nav{
+  height: 100%;
+}
+header nav .row{
+  height: 100%;
+}
+/* JUMBOTRON */
+.jumbotron{
+  height: 500px;
+}
+/* MAIN */
+.em-card{
+  height: 250px;
+  background-color: white;
+}
+/* FOOTER */
