@@ -28,6 +28,17 @@ h1, h2, h3{
 .em-cursor-pointer{
   cursor: pointer;
 }
+
+
+.line-first, .line-second{
+  width: 10%;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+.line-star .star{
+  margin: 0 30px;
+}
 /* UTILITIES / DEBUG */
 
 
@@ -68,19 +79,11 @@ header nav .row{
   font-size: 65px;
 }
 
-.line-first, .line-second{
-  width: 10%;
-  height: 4px;
-  background-color: white;
-  border-radius: 10px;
-}
-.line-star .star{
-  margin: 0 30px;
-}
 .jumbo-description h2{
   font-size: 28px;
   font-weight: 400;
 } 
+
 /* MAIN */
 #portfolio #title{
   padding-top: 70px;
@@ -95,13 +98,26 @@ header nav .row{
   width: 13%;
   background-color: black;
 }
-.em-card{
-  height: 300px;
-  background-color: white;
-  margin-bottom: 40px;
+#portfolio #portfolio-imgs .em-row{
+  display: flex;
+  justify-content: space-around;
 }
-.em-card img{
-  border-radius: 20px;
+#portfolio #portfolio-imgs .em-col{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 10px;
+}
+#portfolio #portfolio-imgs .em-col img{
   height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#about{
+  background-color: #1abc9c;
+}
+#about h1{
+  padding-top: 40px;
 }
 /* FOOTER */
