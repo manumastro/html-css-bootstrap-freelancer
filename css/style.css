@@ -1,19 +1,40 @@
-.debug{
-  background-color:rgba(100, 149, 237, 0.5);
-  border: 1px solid black;
+/* GENERAL */
+body{
+  font-family: 'Roboto', sans-serif;
 }
-.min-h-300{
-  min-height: 300px;
-}
-
-
 .em-container{
   width: 60%;
   margin: 0 auto;
 }
+h2{
+  color: white;
+}
+/* GENERAL */
+
+/* UTILITIES / DEBUG */
+.debug{
+  background-color:rgba(100, 149, 237, 0.5);
+  border: 1px solid black;
+}
+
+.em-white{
+  color: white !important;
+}
+.em-font-bigger{
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}
+
+.em-cursor-pointer{
+  cursor: pointer;
+}
+/* UTILITIES / DEBUG */
+
+
 /* HEADER */
 header{
   height: 80px;
+  background-color: #2c3e50;
 }
 header nav{
   height: 100%;
@@ -21,10 +42,18 @@ header nav{
 header nav .row{
   height: 100%;
 }
+
+
 /* JUMBOTRON */
 .jumbotron{
-  height: 500px;
+  height: 600px;
 }
+.em-jumbo-container{
+  width: 50%;
+  margin: 0 auto;
+  height: 100%;
+}
+
 /* MAIN */
 .em-card{
   height: 250px;
