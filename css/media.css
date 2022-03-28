@@ -2,4 +2,23 @@
   header nav .row h2{
     font-size: 22px;
   }
+  .jumbotron{
+    padding-top: 100px !important;
+  }
+  .jumbo-container{
+    padding-bottom: 20px !important;
+  }
+  .jumbotron .jumbo-container .jumbo-title h1{
+    font-size: 40px;
+  }
+  .jumbotron .jumbo-container .jumbo-description h2{
+    font-size: 20px;
+  }
+  .jumbotron .jumbo-container .jumbo-line-star .star{
+    margin: 0 10px;
+  }
+  .jumbotron .jumbo-container .jumbo-line-star .line-first,
+  .jumbotron .jumbo-container .jumbo-line-star .line-second{
+    width: 80px;
+  }
 }
