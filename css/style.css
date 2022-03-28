@@ -118,6 +118,21 @@ header nav .row{
   background-color: #1abc9c;
 }
 #about h1{
-  padding-top: 40px;
+  padding-top: 80px;
+  font-size: 55px;
+}
+#about .line-first,
+#about .line-second{
+  width: 8%;
+  background-color: white;
+}
+#about span{
+  color: white;
+  font-size: 21px;
+  text-align: center;
+}
+#about button{
+  font-size: 20px;
+  border-radius: 5px;
 }
 /* FOOTER */
