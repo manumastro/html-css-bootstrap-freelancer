@@ -113,6 +113,11 @@ header nav .row{
   width: 100%;
   border-radius: 10px;
 }
+#portfolio #portfolio-imgs .em-col i{
+  display: none;
+  position: absolute;
+
+}
 
 #about{
   background-color: #1abc9c;
@@ -131,8 +136,65 @@ header nav .row{
   font-size: 21px;
   text-align: center;
 }
+#about .em-col{
+  padding-bottom: 20px;
+}
 #about button{
   font-size: 20px;
   border-radius: 5px;
 }
+
+#contact .line-first,
+#contact .line-second{
+  width: 7%;
+  background-color: black;
+}
+#contact .star{
+  margin: 0 10px;
+}
+#contact h1{
+  color: black;
+  font-size: 55px;
+  padding-top: 80px;
+  text-transform: uppercase;
+}
+#contact .em-btn{
+  padding: 8px 20px;
+  background-color: #1abc9c;
+}
+
+#contact .em-form{
+  border-bottom: 1px solid #cccccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
 /* FOOTER */
+.em-footer-top{
+  background-color: #3a546d;
+}
+footer .em-col{
+  padding-bottom: 40px;
+}
+footer span{
+  color: white;
+  font-size: 22px;
+}
+footer span.green{
+  color: #1abc9c;
+}
+footer i{
+  color: white;
+  font-size: 2.5rem;
+  padding: 0 10px;
+}
+.em-footer-bottom{
+  background-color: #2c3e50;
+}
+footer i.fa-copyright{
+  font-size: 1rem;
+  padding: 0 5px;
+}
+footer span.copy{
+  font-size: 1rem;
+} 

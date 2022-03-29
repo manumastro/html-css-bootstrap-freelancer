@@ -85,7 +85,7 @@
       <div id="portfolio-imgs" class="container">
         <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 em-col">
           <div class="col em-col">
-            <img src="img/cabin.png" alt="">
+            <img src="img/cabin.png" alt="">          
           </div>
           <div class="col em-col">
             <img src="img/cake.png" alt="">
@@ -124,7 +124,7 @@
       <div class="em-container">
         <div class="container-fluid mb-5">
           <div class="row row-cols-1 row-cols-md-2">
-            <div class="col"><span>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. </span></div>
+            <div class="col em-col"><span>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. </span></div>
             <div class="col"><span>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span></div>
           </div>
         </div>
@@ -138,27 +138,69 @@
       </div>
     </section>
     
-    <section id="contact" class="debug min-h-300">
-      <div class="container text-center">
-        <h1>Contact</h1>
-        <div>stella</div>
+    <section id="contact" class="mb-5">
+      <div class="container-fluid text-center">
+        <h1>Contact me</h1>
+        <div class="line-star d-flex justify-content-center align-items-center mb-3">
+          <div class="line-first"></div>
+          <div class="star">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+          </div>
+          <div class="line-second"></div>
+        </div>    
       </div>
-      <div class="em-container debug min-h-300">
-        form
+      <div class="em-container">
+        <div class="mb-3">
+          <input type="text" class="form-control em-form" id="exampleFormControlInput1" placeholder="Name">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control em-form" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control em-form" id="exampleFormControlInput1" placeholder="Phone Number">
+        </div>   
+        <div class="mb-3">
+          <textarea class="form-control em-form" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <input type="button" value="Send" class="btn btn-success em-btn">
+        </div
+
       </div>
     </section>
   </main>
 
-  <footer class="debug text-center">
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-3">
-        <div class="col debug">sx</div>
-        <div class="col debug">c</div>
-        <div class="col debug">dx</div>
+  <footer class="text-center">
+    <div class="container-fluid em-footer-top pt-5 pb-3">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 align-items-center">
+          <div class="col em-col">
+            <h3>LOCATION</h3>
+            <span>2215 John Daniel Drive Clark, MO 54243</span>
+          </div>
+          <div class="col em-col">
+            <h3>AROUND THE WEB</h3>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+          <div class="col em-col">
+            <h3>ABOUT FREELANCER</h3>
+            <span>
+              Freelance is a free to use, open source Bootstrap theem created by <span class="green">Start Bootstrap</span>.
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="em-footer-bottom debug">
-      copy
+
+    
+    <div class="em-footer-bottom p-5">
+      <span class="copy">Copyright <i class="fa-solid fa-copyright"></i> Yout Website 2019</span>
+      
     </div>
   </footer>
 
